@@ -1,0 +1,19 @@
+.message {
+    animation: append-message .3s ease-in-out;
+    background: #c92a41;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+@keyframes append-message {
+	from {
+		opacity: 0;
+        transform: scaleY(0);
+	}
+	to {
+		opacity: 1;
+        transform: scaleY(1);
+	}
+}
