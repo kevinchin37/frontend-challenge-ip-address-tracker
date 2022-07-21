@@ -1,0 +1,13 @@
+.banner {
+    background: url('../../../assets/images/pattern-bg.png') no-repeat;
+    background-size: cover;
+    height: 280px;
+    width: 100%;
+}
+
+@media screen and (max-width: 375px) {
+    .banner {
+        padding: 0 25px;
+        width: auto;
+    }
+}
